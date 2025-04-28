@@ -159,7 +159,7 @@ const AllResource = () => {
     doc.setFont("helvetica", "bold");
     doc.text("CEO ELearning:", 15, 55);
     doc.setFont("helvetica", "normal");
-    doc.text("Anuja Manthrirathne", 15, 63);
+    doc.text("osanda kaweeshwara", 15, 63);
     doc.text("456, Pussella, Rathnapura, Sri Lanka", 15, 70);
     doc.text("Phone: 0772029251 | Email: Anuja@example.com", 15, 78);
 
