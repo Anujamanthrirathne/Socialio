@@ -9,7 +9,7 @@ const Resource = () => {
   const [editingResource, setEditingResource] = useState(null);
   const [showForm, setShowForm] = useState(false);
   const [formData, setFormData] = useState({
-    name: '',
+
     subtitle: '',
     description: '',
     resourceLinks: '',
