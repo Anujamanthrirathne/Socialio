@@ -9,7 +9,7 @@ const Resource = () => {
   const [editingResource, setEditingResource] = useState(null);
   const [showForm, setShowForm] = useState(false);
   const [formData, setFormData] = useState({
-    
+    name: '',
     subtitle: '',
     description: '',
     resourceLinks: '',
@@ -72,6 +72,8 @@ const Resource = () => {
       name: formData.name,
       subtitle: formData.subtitle,
       description: formData.description,
+      postDate: formData.postDate,
+      images:imageUrls,
       resourceLinks: formData.resourceLinks.split(',').map(link => link.trim()),
     };
 
@@ -123,7 +125,7 @@ const Resource = () => {
   const resetForm = () => {
     setEditingResource(null);
     setFormData({
-      name: '',
+      
       subtitle: '',
       description: '',
       resourceLinks: '',
