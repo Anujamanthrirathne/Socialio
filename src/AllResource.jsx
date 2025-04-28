@@ -112,7 +112,6 @@ const AllResource = () => {
       _id: item._id,
       id: `RE-${index + 1}`,
       name: item.name || "Unknown",
-      title: item.title || "No Title",
       category: item.category || "Uncategorized",
       description: item.description || "No Description",
     })) || [];
