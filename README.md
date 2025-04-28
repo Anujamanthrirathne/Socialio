@@ -1,4 +1,29 @@
 <h1 align="center">🌟 SocialSphere | Full-Stack Social App</h1>
+## 🛡️ Privacy Policy & Copyright
+
+<p align="center">
+  <img src="https://avatars.githubusercontent.com/u/162743575?v=4" alt="Owner Image" width="120" height="120"/>
+</p>
+
+<h3 align="center">© 2025 Anuja Manthrirathna</h3>
+
+<p align="center">
+  <strong>Author:</strong> Anuja Manthrirathna  
+  <br/>
+  <strong>Business Inquiries:</strong> anujamanthrirathne@gmail.com  
+  <br/>
+  <strong>Contact Number:</strong> +94 77 720 29251
+</p>
+
+<p align="center">
+  <strong>All rights reserved.</strong><br/>
+  This is a business project.  
+  No part of the code, design, or content may be copied, used, or modified without express written permission from the author.
+  <br/>
+  Please contact via email or phone for licensing, collaborations, or other inquiries.
+</p>
+
+
 
 <p align="center">
   A powerful, modern social networking platform built with <strong>Spring Boot + React.js</strong> 💬🔥
@@ -56,6 +81,10 @@
 | Hosting    | Vercel (frontend), Render (backend) |
 
 ---
+
+
+---
+
 
 ## 🚀 Getting Started
 
