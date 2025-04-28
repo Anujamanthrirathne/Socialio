@@ -1,70 +1,94 @@
-# Getting Started with Create React App
+<h1 align="center">🌟 SocialSphere | Full-Stack Social App</h1>
+## 🛡️ Privacy Policy & Copyright
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <img src="https://avatars.githubusercontent.com/u/162743575?v=4" alt="Owner Image" width="120" height="120"/>
+</p>
 
-## Available Scripts
+<h3 align="center">© 2025 Anuja Manthrirathna</h3>
 
-In the project directory, you can run:
+<p align="center">
+  <strong>Author:</strong> Anuja Manthrirathna  
+  <br/>
+  <strong>Business Inquiries:</strong> anujamanthrirathne@gmail.com  
+  <br/>
+  <strong>Contact Number:</strong> +94 77 720 29251
+</p>
 
-### `npm start`
+<p align="center">
+  <strong>All rights reserved.</strong><br/>
+  This is a business project.  
+  No part of the code, design, or content may be copied, used, or modified without express written permission from the author.
+  <br/>
+  Please contact via email or phone for licensing, collaborations, or other inquiries.
+</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+<p align="center">
+  A powerful, modern social networking platform built with <strong>Spring Boot + React.js</strong> 💬🔥
+</p>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<p align="center">
+  <img src="https://img.shields.io/badge/backend-springboot-green?style=flat-square" />
+  <img src="https://img.shields.io/badge/frontend-react-blue?style=flat-square" />
+  <img src="https://img.shields.io/badge/database-mongodb-brightgreen?style=flat-square" />
+  <img src="https://img.shields.io/badge/authentication-jwt%20%7C%20oauth2-red?style=flat-square" />
+</p>
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## ✨ Features
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- 🔐 **Authentication** — Secure JWT-based login + OAuth2 (Google/GitHub)
+- 🧑‍🤝‍🧑 **Follow / Unfollow Users**
+- 📝 **Post & Reply System** — Commenting made easy
+- ❤️ **Like System** — Like and unlike posts
+- 🧠 **Quiz System** — Interactive quizzes with scoring + explanations
+- 📚 **Learning Resources** — Share and explore educational content
+- 🖼️ **Cloudinary Integration** — Upload and manage profile/media images
+- ⚙️ **Profile Editing** — Update personal details and images
+- 🌍 **Fully Responsive Design**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🖼️ Screenshots
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<p align="center">
+  <img src="https://res.cloudinary.com/dwviccr1k/image/upload/v1745267152/React_App_and_4_more_pages_-_School_-_Microsoft_Edge_4_8_2025_10_08_54_AM_oyqfqj.png" alt="Screenshot 1" width="500"/>
+</p>
+<p align="center">
+  <img src="https://res.cloudinary.com/dwviccr1k/image/upload/v1745267135/React_App_and_4_more_pages_-_School_-_Microsoft_Edge_4_8_2025_10_08_11_AM_tjn6ih.png" alt="Screenshot 2" width="500"/>
+</p>
+<p align="center">
+  <img src="https://res.cloudinary.com/dwviccr1k/image/upload/v1745267121/React_App_and_4_more_pages_-_School_-_Microsoft_Edge_4_8_2025_10_07_25_AM_ymh8xy.png" alt="Screenshot 3" width="500"/>
+</p>
+<p align="center">
+  <img src="https://res.cloudinary.com/dwviccr1k/image/upload/v1745267111/React_App_and_4_more_pages_-_School_-_Microsoft_Edge_4_8_2025_10_16_15_AM_edwaut.png" alt="Screenshot 4" width="500"/>
+</p>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🛠️ Tech Stack
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+| Layer       | Technology                     |
+|------------|--------------------------------|
+| Frontend   | React.js, Tailwind CSS, Axios  |
+| Backend    | Spring Boot, Java 21           |
+| Database   | MongoDB                        |
+| Auth       | JWT, OAuth2 (Google, GitHub)   |
+| Storage    | Cloudinary (image uploads)     |
+| Hosting    | Vercel (frontend), Render (backend) |
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🚀 Getting Started
 
-### Analyzing the Bundle Size
+Clone the project:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+https://github.com/Anujamanthrirathne/Social-App-frontend.git
