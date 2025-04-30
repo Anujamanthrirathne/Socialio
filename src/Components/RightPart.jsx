@@ -13,7 +13,20 @@ const RightPart = () => {
     console.log("change");
   };
   return (
-    
+    <div className="py-5 sticky top">
+      <div className="relative flex item-center">
+        <input
+          type="text"
+          className="py-3 rounded-full text-gray-500 w-full pl-12"
+        />
+        <div className="absolute top-0 left-0 pl-3 pt-3">
+          <SearchIcon className="text-gray-500" />
+        </div>
+        <Brightness4Icon
+          onClick={handleChangeTheme}
+          className="ml-3 cursor-pointer"
+        />
+      </div>
       <section className="my-5">
         <h1 className="text-xl font-bold">Get Verified</h1>
         <h1 className="font-bold my-2">Subscribe to unlock new Features</h1>
