@@ -7,7 +7,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { logout } from '../../Store/Auth/action';
 
 const Navigation = () => {
-  const navigate = useNavigate();
+  
   const [anchorEl, setAnchorEl] = React.useState(null);
   const open = Boolean(anchorEl);
    const dispatch = useDispatch();
