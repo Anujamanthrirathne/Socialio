@@ -7,7 +7,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { logout } from '../../Store/Auth/action';
 
 const Navigation = () => {
-  
+  const navigate = useNavigate();
   const [anchorEl, setAnchorEl] = React.useState(null);
   const open = Boolean(anchorEl);
    const dispatch = useDispatch();
@@ -30,7 +30,17 @@ const Navigation = () => {
   const { auth } = useSelector((store) => store);
 
   return (
-    
+    <div className="h-screen sticky top-0 flex flex-col justify-between px-4">
+      {/* Scrollable content */}
+      <div className="overflow-y-auto flex-1">
+        {/* Logo */}
+        <div className="py-5">
+          <img
+            src="https://th.bing.com/th/id/OIP.AhgTJ0sbFGlHWeEARsnp0QHaHa?rs=1&pid=ImgDetMain"
+            alt="Icon"
+            className="w-10 h-10 object-contain"
+          />
+        </div>
 
         {/* Navigation Menu */}
         <div className="space-y-6">
