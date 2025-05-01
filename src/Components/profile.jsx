@@ -99,7 +99,7 @@ const Profile = () => {
       <section className="px-6 relative">
         <div className="flex justify-between items-start -mt-12">
           <Avatar
-            className="border-4 border-white shadow-md"
+            className="border-5 border-white shadow-md"
             alt={user?.name}
             src={user?.profilePicture}
             sx={{ width: "8rem", height: "8rem" }}
