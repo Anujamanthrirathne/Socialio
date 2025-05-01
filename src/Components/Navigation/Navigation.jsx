@@ -68,7 +68,7 @@ const Navigation = () => {
               borderRadius: '29px',
               py: '10px',
               bgcolor: '#1d9bf0',
-              fontSize: '14px',
+              fontSize: '15px',
               textTransform: 'none',
             }}
             variant="contained"
