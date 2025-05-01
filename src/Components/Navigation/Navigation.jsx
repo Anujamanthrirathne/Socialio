@@ -43,7 +43,7 @@ const Navigation = () => {
         </div>
 
         {/* Navigation Menu */}
-        <div className="space-y-6">
+        <div className="space-y-5">
           {navigationMenu.map((item) => (
             <div
               key={item.title}
