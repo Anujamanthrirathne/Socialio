@@ -21,8 +21,8 @@ const style = {
   outline: "none",
   boxShadow: 24,
   p: 4,
-  borderRadius: 4,
-};
+  borderRadius: 4, 
+};a
 
 const paymentModalStyle = {
   position: "absolute",
