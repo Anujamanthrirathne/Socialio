@@ -21,7 +21,7 @@ export const navigationMenu = [
     },
     
     {
-        title: "Learning Something",  
+        title: "Learning resources",  
         icon: <SchoolIcon />,  
         path: "/learning" 
       },
