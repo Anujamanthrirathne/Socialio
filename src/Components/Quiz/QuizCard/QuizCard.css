@@ -18,7 +18,7 @@
 .quiz-view {
     background-color:#2ccf07;
     padding: 25px;
-    border-radius: 10px;
+    border-radius: 12px;
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
 }
