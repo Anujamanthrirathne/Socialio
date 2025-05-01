@@ -128,7 +128,7 @@ const Profile = () => {
               onClick={handleFollowUser}  // Toggle follow/unfollow
               variant="contained"
               sx={{
-                borderRadius: "20px",
+                borderRadius: "22px",
                 backgroundColor: isFollowing ? "#e0245e" : "#1DA1F2",
                 color: "white",
                 textTransform: "none",
