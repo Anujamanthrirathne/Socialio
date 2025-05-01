@@ -13,7 +13,7 @@ import Quiz from "../Quiz/create/Quiz"
 import QuizCard from "../Quiz/QuizCard/QuizCard"
 const HomePage = () => {
   return (
-    <Grid container spacing={3} className="px-5 lg:px-32 min-h-screen">
+    <Grid container spacing={3} className="px-4 lg:px-32 min-h-screen">
       {/* Left Part (Navigation) */}
       <Grid item xs={12} lg={3} className="hidden lg:block pr-4">
         <Navigation />

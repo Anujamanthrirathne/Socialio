@@ -99,7 +99,7 @@ const Profile = () => {
       <section className="px-6 relative">
         <div className="flex justify-between items-start -mt-12">
           <Avatar
-            className="border-4 border-white shadow-md"
+            className="border-5 border-white shadow-md"
             alt={user?.name}
             src={user?.profilePicture}
             sx={{ width: "8rem", height: "8rem" }}
@@ -111,13 +111,13 @@ const Profile = () => {
               onClick={handleOpenProfileModel}
               variant="outlined"
               sx={{
-                borderRadius: "20px",
+                borderRadius: "22px",
                 borderColor: "#1DA1F2",
                 color: "#1DA1F2",
                 textTransform: "none",
                 "&:hover": {
                   backgroundColor: "#1DA1F2",
-                  color: "white",
+                  color: "yellow",
                 },
               }}
             >
@@ -128,7 +128,7 @@ const Profile = () => {
               onClick={handleFollowUser}  // Toggle follow/unfollow
               variant="contained"
               sx={{
-                borderRadius: "20px",
+                borderRadius: "22px",
                 backgroundColor: isFollowing ? "#e0245e" : "#1DA1F2",
                 color: "white",
                 textTransform: "none",

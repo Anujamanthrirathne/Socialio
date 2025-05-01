@@ -50,7 +50,7 @@ const QuizManager = () => {
     setQuestions(updated);
   };
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = async (r) => {
     e.preventDefault();
     const payload = { quizName, questions };
 
@@ -91,7 +91,7 @@ const QuizManager = () => {
         <Button
           onClick={() => setShowForm(true)}
           variant="contained"
-          color="primary"
+          color="p"
           startIcon={<Add />}
           sx={{ mb: 3 }}
         >
