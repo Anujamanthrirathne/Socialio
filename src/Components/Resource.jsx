@@ -13,7 +13,7 @@ const Resource = () => {
     subtitle: '',
     description: '',
     resourceLinks: '',
-    file: null,
+    
     images: [],
     postDate: '',
   });
