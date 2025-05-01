@@ -91,7 +91,7 @@ const QuizManager = () => {
         <Button
           onClick={() => setShowForm(true)}
           variant="contained"
-          color="primary"
+          color="p"
           startIcon={<Add />}
           sx={{ mb: 3 }}
         >
