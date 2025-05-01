@@ -111,7 +111,7 @@ const Profile = () => {
               onClick={handleOpenProfileModel}
               variant="outlined"
               sx={{
-                borderRadius: "20px",
+                borderRadius: "22px",
                 borderColor: "#1DA1F2",
                 color: "#1DA1F2",
                 textTransform: "none",
