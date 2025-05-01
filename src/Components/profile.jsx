@@ -117,7 +117,7 @@ const Profile = () => {
                 textTransform: "none",
                 "&:hover": {
                   backgroundColor: "#1DA1F2",
-                  color: "white",
+                  color: "yellow",
                 },
               }}
             >
