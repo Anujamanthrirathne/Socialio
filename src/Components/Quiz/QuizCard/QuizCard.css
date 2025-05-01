@@ -34,7 +34,7 @@
 .quiz-view h1::after {
     content: '';
     display: block;
-    width: 60px;
+    width: 62px;
     height: 4px;
     background-color: #3498db;
     margin-top: 10px;
