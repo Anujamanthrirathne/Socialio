@@ -50,13 +50,13 @@ const Authentication = () => {
         <Grid item lg={5} xs={12} className="h-full flex flex-col justify-start px-10 pt-28">
           <h1 className="font-bold text-5xl">Happening Now</h1>
           <h1 className="font-bold text-3xl py-16">Join Twilio Today</h1>
-          <div className="w-[60%]">
+          <div className="w-[62%]">
             <GoogleLogin 
               onSuccess={handleGoogleLogin}
               onError={(error) => console.log(error)}
               useOneTap 
             />
-            <p className="py-5 text-center">OR</p>
+            <p className="py-4 text-center">OR</p>
             <Button onClick={handleOpenAuthModel} fullWidth variant="contained" size="large" sx={{ borderRadius: "29px", py: "7px" }}>
               Create Account
             </Button>
