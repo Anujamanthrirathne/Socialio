@@ -33,7 +33,7 @@ export const uploadToCloudinary = async (pics) => {
             }
         } catch (error) {
             console.error("Error in uploadToCloudinary:", error);
-            throw error;  // Re-throw error to propagate it
+            throw error;  
         }
     } else {
         console.log("No image or video file provided.");
